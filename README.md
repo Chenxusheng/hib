@@ -1,0 +1,2 @@
+# hib
+代码是基于maven和hibernate以及spring开发的入门实例
