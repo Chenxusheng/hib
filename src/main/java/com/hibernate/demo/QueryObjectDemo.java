@@ -1,7 +1,7 @@
 package com.hibernate.demo;
 
 
-import com.hibernate.Utils.HibernateUtils;
+import com.hibernate.DaoUtils.HibernateUtils;
 import com.hibernate.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
