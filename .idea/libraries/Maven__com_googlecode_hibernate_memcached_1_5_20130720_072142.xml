@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.googlecode:hibernate-memcached:1.5-20130720.072142">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/hibernate-memcached/1.5-20130720.072142/hibernate-memcached-1.5-20130720.072142.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/hibernate-memcached/1.5-20130720.072142/hibernate-memcached-1.5-20130720.072142-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/hibernate-memcached/1.5-20130720.072142/hibernate-memcached-1.5-20130720.072142-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

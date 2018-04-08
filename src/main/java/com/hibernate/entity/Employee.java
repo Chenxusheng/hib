@@ -56,7 +56,7 @@ public class Employee extends BaseEntity<String> implements java.io.Serializable
         return empId;
     }
 
-    public void setEmpId(Long empId) {
+    public void setEmpId(String empId) {
         this.empId = empId;
     }
 
