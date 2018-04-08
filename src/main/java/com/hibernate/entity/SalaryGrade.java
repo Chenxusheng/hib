@@ -1,11 +1,13 @@
 package com.hibernate.entity;
+import com.ibm.common.entity.BaseEntity;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
 @Table(name = "SALARY_GRADE")
-public class SalaryGrade {
+public class SalaryGrade extends BaseEntity<String> implements java.io.Serializable{
     private Integer grade;
     private Float lowSalary;
     private Float highSalary;

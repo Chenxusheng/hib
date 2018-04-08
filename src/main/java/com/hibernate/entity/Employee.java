@@ -1,5 +1,7 @@
 package com.hibernate.entity;
 
+import com.ibm.common.entity.BaseEntity;
+
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -19,7 +21,7 @@ import javax.persistence.UniqueConstraint;
 
 @Entity
 @Table(name = "EMPLOYEE", uniqueConstraints = { @UniqueConstraint(columnNames = { "EMP_NO" }) })
-public class Employee {
+public class Employee extends BaseEntity<String> implements java.io.Serializable{
     private Long empId;
     private String empNo;
 

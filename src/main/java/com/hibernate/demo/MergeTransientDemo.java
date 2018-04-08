@@ -4,8 +4,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.hibernate.DaoUtils.DataUtils;
-import com.hibernate.DaoUtils.HibernateUtils;
+import com.hibernate.Utils.DataUtils;
+import com.hibernate.Utils.HibernateUtils;
 import com.hibernate.entity.Employee;
 import com.hibernate.entity.Timekeeper;
 import org.hibernate.Session;

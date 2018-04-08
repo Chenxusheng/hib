@@ -40,6 +40,11 @@
             <artifactId>spring-beans</artifactId>
             <version>4.1.4.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>com.ibm</groupId>
+            <artifactId>tbsp-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <build>
         <!--为了IDEA能够在编译时将对应的配置文件加入，需要添加下面的配置-->

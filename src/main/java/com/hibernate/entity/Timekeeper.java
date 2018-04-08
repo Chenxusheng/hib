@@ -13,11 +13,12 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import com.ibm.common.entity.BaseEntity;
 import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @Table(name = "TIMEKEEPER")
-public class Timekeeper {
+public class Timekeeper extends BaseEntity<String> implements java.io.Serializable{
     public static final char IN = 'I';
     public static final char OUT = 'O';
 

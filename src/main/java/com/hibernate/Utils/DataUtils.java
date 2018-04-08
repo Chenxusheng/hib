@@ -1,4 +1,4 @@
-package com.hibernate.DaoUtils;
+package com.hibernate.Utils;
 
 import com.hibernate.entity.Department;
 import com.hibernate.entity.Employee;

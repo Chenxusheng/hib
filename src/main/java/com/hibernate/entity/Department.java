@@ -1,4 +1,6 @@
 package com.hibernate.entity;
+import com.ibm.common.entity.BaseEntity;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -11,7 +13,7 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 @Entity
 @Table(name = "DEPARTMENT", uniqueConstraints = { @UniqueConstraint(columnNames = { "DEPT_NO" }) })
-public class Department {
+public class Department extends BaseEntity<String> implements java.io.Serializable{
 
     private Integer deptId;
     private String deptNo;
